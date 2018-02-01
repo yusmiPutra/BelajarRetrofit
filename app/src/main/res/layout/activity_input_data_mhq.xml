@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:id="@+id/r1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="ID Ustadzv"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/id_berita"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Berita"
+            android:background="@drawable/bgbtn3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Dari Waktu"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/id_judul"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Judul Berita"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bgbtn3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Sampai Waktu"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/id_isi_berita"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:hint="Isi Berita"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bgbtn"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Catatan"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/id_cat"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Categori"
+            android:gravity="center_horizontal"
+            android:background="@drawable/bgbtn"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/pd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginRight="4dp"
+            android:background="@drawable/bgbtn3"
+            android:id="@+id/btn_insertdata"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:background="@drawable/bgbtn2"
+            android:layout_weight="1"
+            android:id="@+id/btntampildata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampil Data"
+            android:visibility="gone"/>
+
+        <Button
+            android:background="@drawable/bgbtn4"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:visibility="gone" />
+
+        <Button
+
+            android:layout_weight="1"
+            android:id="@+id/btnhapus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bgbtn"
+            android:text="Hapus"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

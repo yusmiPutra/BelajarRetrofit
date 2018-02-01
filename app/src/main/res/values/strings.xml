@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BelajarRetrofit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="loading">loading....</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_berita">ListBerita</string>
+</resources>
